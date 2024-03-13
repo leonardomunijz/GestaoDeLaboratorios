@@ -2,8 +2,8 @@
 Este é um projeto destinado à criação de uma aplicação web de Gestão de Laboratórios, desenvolvida como parte de um Teste de Performance (TP). Esta aplicação permitirá gerenciar informações sobre computadores em um laboratório, proporcionando funcionalidades de cadastro, leitura, atualização e exclusão (CRUD).
 
 ## Requisitos do Projeto
-Criar uma aplicação Web no Visual Studio utilizando o template correspondente com o nome GestaoDeLaboratorios.
-Criar uma pasta Models e dentro dela uma classe Computadores com os seguintes atributos:
+* Criar uma aplicação Web no Visual Studio utilizando o template correspondente com o nome GestaoDeLaboratorios.
+* Criar uma pasta Models e dentro dela uma classe Computadores com os seguintes atributos:
 1. Id
 2. Marca
 3. Processador
@@ -13,11 +13,11 @@ Criar uma pasta Models e dentro dela uma classe Computadores com os seguintes at
 7. NumeroPratrimonio
 8. Data de compra
 
-Criar uma View de Computadores utilizando o Scaffold, e adicionar as páginas Razor utilizando o Entity Framework.
-Selecionar a classe Computador como modelo e criar uma classe DbContext com o nome InfnetDbContext.
-Executar os comandos Add-Migration e Update-Database no Package Manager Console.
-Fazer com que o sistema apresente inicialmente todos os computadores cadastrados.
-Testar a aplicação realizando um CRUD de um computador.
+* Criar uma View de Computadores utilizando o Scaffold, e adicionar as páginas Razor utilizando o Entity Framework.
+* Selecionar a classe Computador como modelo e criar uma classe DbContext com o nome InfnetDbContext.
+* Executar os comandos Add-Migration e Update-Database no Package Manager Console.
+* Fazer com que o sistema apresente inicialmente todos os computadores cadastrados.
+* Testar a aplicação realizando um CRUD de um computador.
 
 ## Execução do Projeto
 Clone este repositório para o seu ambiente local.
